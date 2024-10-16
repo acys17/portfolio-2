@@ -1,14 +1,5 @@
 // Import the variables file
-@import './variables';
-
-// Global styles
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: $background-gradient;
-  color: $text-color;
-}
+@import '../variables';
 
 header {
   background-color: $header-bg-color;
@@ -17,7 +8,6 @@ header {
 
   h1 {
     font-size: 2rem;
-    font-weight: bold;
   }
 
   ul {
